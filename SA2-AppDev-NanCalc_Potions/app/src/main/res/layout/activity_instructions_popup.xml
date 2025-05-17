@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".InstructionsPopup">
 
     <ImageButton
@@ -80,7 +81,8 @@
             android:layout_width="25dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Select an Ingridient from the Table "
+            android:text="Select an Ingredient from the Table "
+            android:textColor="#000000"
             android:textAlignment="center" />
 
         <ImageView
@@ -437,6 +439,7 @@
                 android:layout_width="232dp"
                 android:layout_height="match_parent"
                 android:text="Select an enhancer to change the duration or poetency of the potion"
+                android:textColor="#000000"
                 android:textAlignment="center" />
 
             <ImageView
@@ -543,6 +546,7 @@
                 android:layout_width="181dp"
                 android:layout_height="wrap_content"
                 android:text="Select a modifier to change the type of the potion"
+                android:textColor="#000000"
                 android:textAlignment="center" />
 
             <ImageView
